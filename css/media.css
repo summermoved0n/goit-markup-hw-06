@@ -1,0 +1,132 @@
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 426px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 766px;
+  }
+
+  /** -------- SKILLS -------- */
+
+  .section-skills {
+    gap: 72px 24px;
+  }
+
+  .skills-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .main-skills-head {
+    text-align: left;
+  }
+
+  /**----------- TEAM -----------*/
+
+  .team-list {
+    gap: 64px 24px;
+  }
+
+  /** -------- CUSTOMERS -------- */
+
+  .customers-list {
+    gap: 72px 24px;
+  }
+
+  .customers-item {
+    width: 168px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  /** -------- SKILLS -------- */
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .section-skills {
+    gap: 24px;
+  }
+
+  .container-skills-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  .main-skills-head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+
+  .skills-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .main-skills-text {
+    font-weight: 400;
+  }
+
+  /**----------- JOBS -----------*/
+
+  .section-content {
+    display: block;
+    padding-bottom: 120px;
+  }
+
+  .section-jobs {
+    color: var(--navyblue);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+
+  .jobs-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .jobs-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  /**----------- TEAM -----------*/
+
+  .main-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-list {
+    gap: 24px;
+  }
+
+  /** -------- CUSTOMERS -------- */
+
+  .section-customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list {
+    gap: 24px;
+  }
+}
