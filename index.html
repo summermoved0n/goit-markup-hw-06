@@ -53,15 +53,15 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="header-open-btn">
+        <button type="button" class="header-open-btn" data-menu-open>
           <svg class="header-icon-btn" width="32" height="22">
             <use href="./images/icons.svg#icon-menu-hamburger"></use>
           </svg>
         </button>
       </div>
-      <div class="mob-menu">
+      <div class="mob-menu is-hidden" data-menu>
         <div>
-          <button type="button" class="header-close-btn">
+          <button type="button" class="header-close-btn" data-menu-close>
             <svg class="header-icon" width="8" height="8">
               <use href="./images/icons.svg#icon-close-btn"></use>
             </svg>
@@ -227,6 +227,7 @@
           <ul class="jobs-list list">
             <li class="jobs-item">
               <img
+                srcset="./images/screen.jpg 1x, ./images/screen-2x.jpg 2x"
                 src="./images/screen.jpg"
                 alt="Screen when showed a new project"
                 width="360"
@@ -234,6 +235,7 @@
             </li>
             <li class="jobs-item">
               <img
+                srcset="./images/phones.jpg 1x, ./images/phones-2x.jpg 2x"
                 src="./images/phones.jpg"
                 alt="Development of the mobile application"
                 width="360"
@@ -241,6 +243,7 @@
             </li>
             <li class="jobs-item">
               <img
+                srcset="./images/phone-pc.jpg 1x, ./images/phone-pc-2x.jpg 2x"
                 src="./images/phone-pc.jpg"
                 alt="Mobile application testing"
                 width="360"
@@ -256,7 +259,12 @@
 
           <ul class="team-list list">
             <li class="list-item">
-              <img src="./images/imgman1.jpg" alt="Mark Guerrero" width="264" />
+              <img
+                srcset="./images/imgman1.jpg 1x, ./images/imgman1-2x.jpg 2x"
+                src="./images/imgman1.jpg"
+                alt="Mark Guerrero"
+                width="264"
+              />
               <div class="team-container">
                 <h3 class="worker-list">Mark Guerrero</h3>
                 <p class="worker-text">Product Designer</p>
@@ -317,7 +325,12 @@
               </div>
             </li>
             <li class="list-item">
-              <img src="./images/imgman2.jpg" alt="Tom Ford" width="264" />
+              <img
+                srcset="./images/imgman2.jpg 1x, ./images/imgman2-2x.jpg 2x"
+                src="./images/imgman2.jpg"
+                alt="Tom Ford"
+                width="264"
+              />
               <div class="team-container">
                 <h3 class="worker-list">Tom Ford</h3>
                 <p class="worker-text">Frontend Developer</p>
@@ -379,6 +392,7 @@
             </li>
             <li class="list-item">
               <img
+                srcset="./images/imgwoman1.jpg 1x, ./images/imgwoman-2x.jpg 2x"
                 src="./images/imgwoman1.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -443,7 +457,12 @@
               </div>
             </li>
             <li class="list-item">
-              <img src="./images/imgman3.jpg" alt="Daniel Wilson" width="264" />
+              <img
+                srcset="./images/imgman3.jpg 1x, ./images/imgman3-2x.jpg 2x"
+                src="./images/imgman3.jpg"
+                alt="Daniel Wilson"
+                width="264"
+              />
               <div class="team-container">
                 <h3 class="worker-list">Daniel Wilson</h3>
                 <p class="worker-text">UI Designer</p>
@@ -744,5 +763,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

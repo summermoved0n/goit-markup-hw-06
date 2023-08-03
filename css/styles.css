@@ -40,12 +40,15 @@ body {
   background-color: var(--white);
 }
 
+.no-scroll{
+  overflow: hidden;
+}
+
 .container {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 
 .visually-hidden {
@@ -210,8 +213,6 @@ body {
 .mob-list-icon {
   display: flex;
   gap: 56px;
-  justify-content: center;
-  align-items: center;
 }
 
 .mob-item-icon {
@@ -767,7 +768,7 @@ footer {
 }
 
 .modal {
-  width: 408px;
+  width: 392px;
   min-height: 584px;
   border-radius: 4px;
   background-color: var(--dairy);
